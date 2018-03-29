@@ -1,10 +1,13 @@
 Thunder Chicken - Kinda like Rygel the Sixteenth, The Dominar of the skies...
+
 ======
 
-**Description:** An open source integrated ESP32 based flight controller with integrated 433 MHz LORA long range radio and dual band (1.3 / 3.5 GHz) video transmitter.
+**Description:**
+An open source integrated ESP32 based flight controller with integrated 433 MHz LORA long range radio and dual band (1.3 / 3.5 GHz) video transmitter.
+
 -----
 
-*High Level Features:*
+**High Level Features:**
 * RC
 	* 6 x 0.1" RC PWM pins
 	* Supports alternate functions
