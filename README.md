@@ -7,14 +7,21 @@
 
 **High Level Features:**
 * RC
-	* 6 x 0.1" RC PWM pins
-	* Supports alternate functions
-		* (TODO) S.Bus
+	* 6 x 0.1" RC I/O pins
+	* Each pin supports the one of the following functions
+		* (TODO) PWM
 		* (TODO) PPMSum
+		* (TODO) S.Bus
 		* (TODO) UART (Max 2 available)
+			* (TODO) Protocol support for eagletree open telemetry
+			* (TODO) Protocol support for Crossfire telemetry (CRSF)
+	* (TODO) Arbitrary Over the Air (OTA) PWM -> Output PWM slot mapping
+		* (TODO) Support RSSI and LQI as additional data sources
+		
 * LED
 	* (TODO) WS2812 Support
 		* Max String Lenght: xxx
+		* (TODO) Uses the Infared Remote Controller (IRC) peripheral to drive the WS2812 protocol with low CPU utilization
 	* (TODO) Single switched VBatt output for headlight/passive LED strip
 		* Support for 3 pin 0.1" pololu style regulator for alternate voltage output
 * Lost Model Prevention
